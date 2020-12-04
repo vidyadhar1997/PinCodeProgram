@@ -7,7 +7,7 @@ namespace PinCodeProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the pin code program");
-            Console.WriteLine("Enter the pin code =");
+            Console.WriteLine("Enter pin code =");
             String pinCode=Console.ReadLine();
             PinCodePattern pinCodePattern = new PinCodePattern();
             Console.WriteLine(pinCodePattern.validatePinCode(pinCode));
