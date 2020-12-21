@@ -14,7 +14,6 @@ namespace PinCodeProblem
             PinCodePattern pinCodePattern = new PinCodePattern();
             Console.WriteLine(pinCodePattern.validatePinCode(pinCode));
             Console.WriteLine(pinCodePattern.validatePinCode(pinCode1));
-
         }
     }
 }
